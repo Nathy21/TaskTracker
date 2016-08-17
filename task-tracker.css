@@ -1,0 +1,129 @@
+.details table {
+  border: 1px solid #ddd;
+}
+.details th, td {
+  text-align: left;
+  padding: 8px;
+}
+.details tr:nth-child(even){background-color: #f2f2f2}
+
+.task-details-table {
+  width:80%;
+  border-style: groove;
+  border-color: #ddd;
+  border-style: solid;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.create-task-table {
+  float:left;
+  width:100%;
+  margin-right:80px;
+  margin-left:20px;
+}
+
+.text-box-width {
+  width: 80%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.task-name {
+  text-align: right;
+  font-weight: bold;
+}
+.task-date {
+  text-align: left;
+  color: #808080;
+}
+.task-assigned {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-color-gray {
+  color: gray;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+.margin-left-50 {
+  margin-left: 50px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-2 {
+  margin-bottom:2px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.display-table {
+  display:table;
+}
+
+.task-tracker-header {
+  width:100%;
+  padding-bottom: 60px;
+  background-color: #f2f2f2;
+}
+
+.submit-button {
+  background: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  background-color: #D3D3D3;
+}
+
+#wrapper {
+  width: 1010px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 30px;
+}
+
+#leftcolumn,
+#rightcolumn {
+  border: 1px solid white;
+  min-height: 500px;
+  background-color: white;
+}
+
+#leftcolumn {
+  width: 500px;
+  float: left;
+}
+
+#rightcolumn {
+  width: 500px;
+  float: right;
+}

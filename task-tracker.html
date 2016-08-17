@@ -1,0 +1,49 @@
+<html>
+<head>
+<script src="task-tracker.js"></script>
+<link rel="stylesheet" type="text/css" href="task-tracker.css">
+</head>
+<body onload="loadTaskDetails();">
+  <form name="task">
+    <div id="wrapper">
+      <div class="task-tracker-header">
+        <div class="margin-left-20">
+          <h1 class="margin-bottom-2">Task Tracker</h1>
+          <span class="font-color-gray">v2.0</span>
+        </div>
+      </div>
+      <div class="display-table" id="leftcolumn">
+        <h3 class="bold margin-left-30 margin-bottom-30 margin-top-10">Create Task</h3>
+        <table class="create-task-table">
+          <tr>
+            <td class="bold">Task Name</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="taskName" id="taskName" class="text-box-width"/></td>
+          </tr>
+          <tr>
+            <td class="bold">Date</td>
+          </tr>
+          <tr>
+            <td><input type="text"  name="taskDate" id="taskDate" class="text-box-width"/></td>
+          </tr>
+          <tr>
+            <td class="bold">Assigned To</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="taskAssignedTo" id="taskAssignedTo" class="text-box-width"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="button" value="submit" onclick="addTask();" class="submit-button" /></td>
+          </tr>
+        </table>
+      </div>
+      <div id="rightcolumn">
+        <h3 class="bold margin-left-50 margin-bottom-30">Existing Tasks</h3>
+        <table id="taskDetails" class="details task-details-table">
+        </table>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
